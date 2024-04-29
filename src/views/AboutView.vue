@@ -49,10 +49,10 @@
     align-items: center;
   }
   .container {
-    max-width: 800px; /* Define a largura máxima do container */
-    margin: 0 auto; /* Centraliza o container na página */
-    border: 1px solid #ccc; /* Adiciona uma borda fina */
-    padding: 20px; /* Adiciona espaço interno ao container */
+    max-width: 800px; 
+    margin: 0 auto; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
   } 
   P, h6{
     background-color: #ccc;
