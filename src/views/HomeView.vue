@@ -17,9 +17,8 @@ onMounted(() => {
 <template>
   <main>
     <div class="container">
-        <div class="col-sm-12">
-          <div class="card">
-            <div class="card-body row">
+      <div class="col-sm-12">
+            <div class="row">
               <ListCharacters  v-for="character in characters" 
             :key="character.name" 
             :name="character.name"
@@ -31,8 +30,8 @@ onMounted(() => {
             :url="character.url"
             />
             </div>
-          </div>
         </div>
+        <p> </p>
       </div>
   </main>
 </template>
