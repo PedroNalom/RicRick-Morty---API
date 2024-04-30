@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container1">
   <div id="carouselExampleDark" class="carousel carousel-dark slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -8,7 +8,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://image.tmdb.org/t/p/original/vDPXV2VqzeALc7WVnOetzS1xQQ7.jpg" class="d-block w-100" alt="...">
+      <img src="https://image.tmdb.org/t/p/original/vDPXV2VqzeALc7WVnOetzS1xQQ7.jpg" class="d-block w-100" alt="..." >
       <div class="carousel-caption d-none d-md-block">
         <h6>About Me</h6>
         <p>Meu nome é Pedro Henrique Nalom, tenho 19 anos. Atualmente estou cursando Analise e Desenvolvimento de Sistema na Unimar. Meu Registro de Aluno é 1968133 e atualmente estou no terceiro termo da turma C.   </p>
@@ -42,21 +42,19 @@
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-  .container {
-    max-width: 800px; 
-    margin: 0 auto; 
+
+  .container1 {
+    margin: auto; 
     border: 1px solid #ccc; 
-    padding: 20px; 
+    padding: 150px; 
   } 
+  .d-block{
+    height:35rem   
+  }
+
   P, h6{
     background-color: #ccc;
   }
-  
-}
+
+
 </style>
